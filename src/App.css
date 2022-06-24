@@ -1,0 +1,18 @@
+.app{
+    padding: 5% 10%;
+    display:flex;
+    background-color: rgb(181, 181, 250);
+    height: 100vh;
+}
+@media (max-width:1000px) {
+    .app{
+        flex-direction: column;
+        height: 125vh;
+    }
+}
+@media (max-width:500px){
+    .app{
+        padding: 5% 10px;
+        height: 125vh;
+    }
+}

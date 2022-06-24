@@ -1,0 +1,46 @@
+.ContactInfoWrapper {
+  flex: 4;
+  background-color: white;
+  border-radius: 0 5px 5px 0;
+  position: relative;
+}
+.contactHeading {
+  box-shadow: 0 1px 2px 0 rgb(0, 0, 0, 0.2);
+  padding: 10px;
+}
+.contactHeading > p {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+.contactImage {
+  width: 35vw;
+}
+.contactBody {
+  padding: 0 15px;
+  position: absolute;
+  bottom: 20px;
+  
+}
+.contactBody p{
+    margin-bottom: 5px;
+}
+
+@media (max-width:1000px){
+    .ContactInfoWrapper{
+        border-radius:0 0 5px 5px;
+    }
+    .contactImage{
+        display: none;
+    }
+    .contactBody{
+        position:relative;
+        display:flex;
+       justify-content: space-around;
+    }
+    .contactHeading{
+        box-shadow: none;
+    }
+    .contactHeading>p{
+        margin-bottom: 30px;
+    }
+}

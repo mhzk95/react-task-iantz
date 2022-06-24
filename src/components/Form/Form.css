@@ -1,0 +1,62 @@
+.formWrapper{
+    width: 100%;
+    flex: 6;
+    height: auto;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 1px 3px 0 rgb(0,0,0,0.2);
+    background-color: white;
+    position: relative;
+}
+
+.headingForm{
+    box-shadow: 0 1px 3px 0 rgb(0,0,0,0.2);
+    padding: 10px;
+}
+.headingForm > p{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+.subTitle{
+    margin: 40px 0;
+}
+.formContent{
+    padding:0 30px;
+}
+.formContent span{
+    color: red;
+}
+.formTop{
+    display: flex;
+}
+.submitButton{
+    width: 100px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.successMessage{
+    color: green !important;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 1.5rem;
+}
+.failureMessage{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 1.5rem;
+}
+
+@media (max-width:1000px) {
+    .formWrapper{
+        border-radius: 5px 5px 0 0;
+        flex: 8;
+    }
+    
+}
+@media (max-width:500px){
+    .formWrapper{
+      flex: 9;
+    }
+}

@@ -1,8 +1,13 @@
+import ContactInfo from "./components/ContactInfo/ContactInfo";
+import FormSection from "./components/Form/Form";
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div className='app'>
+    <FormSection />
+    <ContactInfo />
     </div>
   );
 }
